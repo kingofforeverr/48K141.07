@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-source-sans-pro: "Source Sans Pro";
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-smi: 13px;
+    --font-size-sm: 14px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-crimson: #df3030;
+    --color-tomato: #ff4d4d;
+    --color-black: #000;
+  
+    /* Border radiuses */
+    --br-sm: 14px;
+    --br-5xl: 24px;
+  }
+  .menu,
+.menu-itens {
+  position: absolute;
+  width: 375px;
+  height: 78px;
+}
+.menu {
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 16px rgba(19, 44, 74, 0.05);
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+}
+.menu-itens {
+  top: 734px;
+  left: 589px;
+}
+.menu-ch-tr-child {
+  position: absolute;
+  top: 53px;
+  left: 331px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 10px;
+  height: 10px;
+}
+.group-child,
+.menu-itens1 {
+  position: absolute;
+  top: 734px;
+  left: 0;
+  width: 375px;
+  height: 78px;
+}
+.group-child {
+  top: 0;
+  left: 4px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-tomato);
+  width: 100px;
+  height: 101px;
+}
+.danh-sch-khch {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  line-height: 20px;
+  display: inline-block;
+  width: 106px;
+  height: 37px;
+}
+.claritylist-line-icon {
+  position: absolute;
+  top: 59px;
+  left: 33px;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+}
+.group-item,
+.rectangle-parent {
+  position: absolute;
+  top: 413px;
+  left: 13px;
+  width: 106px;
+  height: 101px;
+}
+.group-item {
+    background-color: var(--color-tomato);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  width: 100px;
+}
+.tnh-trng {
+  margin: 0;
+}
+.tnh-trng-phng-container {
+  position: absolute;
+  top: 11px;
+  left: 15px;
+  line-height: 20px;
+}
+.pajamasstatus-closed-icon {
+  position: absolute;
+  top: 56px;
+  left: 35px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.group-inner,
+.vector-parent {
+  position: absolute;
+  width: 100px;
+  height: 101px;
+}
+.vector-parent {
+  top: 276px;
+  left: 16px;
+  font-size: var(--font-size-sm);
+}
+.group-inner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-tomato);
+}
+.thng-k-doanh-container {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  line-height: 20px;
+}
+.vector-icon,
+.vector-icon1,
+.vector-icon2 {
+  position: absolute;
+  height: 21.09%;
+  width: 9.3%;
+  top: 66.04%;
+  right: 52.7%;
+  bottom: 12.87%;
+  left: 38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon1,
+.vector-icon2 {
+  height: 31.68%;
+  top: 55.45%;
+  right: 43.4%;
+  left: 47.3%;
+  width: 23px;
+}
+.vector-icon2 {
+  height: 14.06%;
+  top: 73.07%;
+  right: 34%;
+  left: 56.7%;
+}
+.rectangle-group {
+  position: absolute;
+  top: 139px;
+  left: 265px;
+  width: 100px;
+  height: 101px;
+}
+.xem-ha-n-container {
+  position: absolute;
+  top: 11px;
+  left: 5px;
+  line-height: 20px;
+  display: inline-block;
+  width: 97px;
+}
+.pheye-icon {
+  position: absolute;
+  top: 56px;
+  left: 30px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.vector-group {
+  position: absolute;
+  top: 276px;
+  left: 141px;
+  width: 102px;
+  height: 101px;
+  font-size: var(--font-size-sm);
+}
+.pheye-icon1,
+.xem-hp-ng {
+  position: absolute;
+  height: 32px;
+}
+.pheye-icon1 {
+  top: 56px;
+  left: 34px;
+  width: 32px;
+  overflow: hidden;
+}
+.xem-hp-ng {
+  top: 10px;
+  left: 1px;
+  line-height: 20px;
+  display: inline-block;
+  width: 96px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 276px;
+  left: 265px;
+  width: 100px;
+  height: 101px;
+  font-size: 16px;
+}
+.tnh-tin-tr {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  line-height: 20px;
+  display: inline-block;
+  width: 68px;
+  height: 37px;
+}
+.calculator-icon {
+  position: absolute;
+  top: 58px;
+  left: 35px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.group-child2,
+.group-div {
+  position: absolute;
+  top: 139px;
+  left: 14px;
+  width: 100px;
+  height: 101px;
+}
+.group-child2 {
+  top: 0;
+  left: 8px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-tomato);
+}
+.thm-sa-xa-container {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  line-height: 20px;
+  display: inline-block;
+  width: 121px;
+  height: 75px;
+}
+.file-edit-icon {
+  position: absolute;
+  top: 59px;
+  left: 43px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 139px;
+  left: 131px;
+  width: 121px;
+  height: 101px;
+  color: #141212;
+}
+.menu2 {
+  position: absolute;
+  top: 41px;
+  left: 50px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 900;
+  color: var(--color-crimson);
+  display: inline-block;
+  width: 107px;
+  height: 40px;
+}
+.mingcutemenu-line-icon{
+  position: absolute;
+  top: 46px;
+  left: 37px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.home-icon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 15.5px);
+  width: 24.6px;
+  height: 24.5px;
+  overflow: hidden;
+}
+.home,
+.home-parent {
+  position: absolute;
+  width: 43px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.home {
+  top: 24.5px;
+  left: 0;
+  line-height: 26px;
+  font-weight: 600;
+  display: inline-block;
+  height: 26.5px;
+}
+.home-parent {
+  top: 757px;
+  left: calc(50% - 21.5px);
+  height: 51px;
+  text-align: left;
+  font-size: 15px;
+  color: var(--color-crimson);
+  font-family: var(--font-source-sans-pro);
+}
+.menu-ch-tr {
+  position: absolute;
+  top: 14px;
+  left: 5px;
+  border-radius: 35px;
+  background-color: #f9fbff;
+  width: 375px;
+  height: 812px;
+  overflow: hidden;
+}
+.menu-itens-parent {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 908px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  background-color:#ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
